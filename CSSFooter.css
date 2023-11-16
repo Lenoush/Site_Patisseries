@@ -1,0 +1,53 @@
+/*OUDJMAN ET MARCIAUX*/
+
+/* Bas de Condition SUR TOUTES LES PAGES*/
+.CouleurBlancCase{
+	background-color: #FFF8E1;
+	color: #C78805;
+	border-top: 2px #C78805 solid;
+}
+
+.TAILLE100 {
+	width: 100%;
+}
+
+.TailleH{
+	height: 60px;
+}
+
+.TailleL {
+	width: 33%;
+}
+
+.TailleLargeur{
+	text-align: center;
+	font-size: 90%;
+}
+
+.Contact{
+	float: center;
+	color: #C78805;
+	border-bottom: 1px #C78805 solid ;
+}
+
+.Made{
+	float:  right;
+	margin-right: 40px;
+	color: #C78805;
+}
+
+.Bas{
+	background-color: lightgrey;
+	margin: auto;
+	width: 75%;
+}
+
+.Bas td a{
+	color: black;
+	font-size: 100%;
+	text-decoration: none;
+}
+
+.FloatR{
+	float: right;
+}

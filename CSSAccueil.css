@@ -1,0 +1,240 @@
+/*OUDJMAN ET MARCIAUX*/
+
+/* BODY . */
+/* Premiere Partie */
+
+.PhotoDroite {
+	float: right;
+}
+
+.BlancCassee {
+	height: 450px;
+	background-color: #FFF8E1;
+}
+
+		/* Photo slide */
+.Slider {
+	width: 450px;
+	overflow: hidden;
+	margin-right: 7%;
+}
+
+.Slides {
+	width: calc(450px * 12);
+	animation: glisse 30s infinite;
+}
+
+.Slide {
+	float: left;
+}
+.Photo {
+	width: 450px;
+}
+
+		/*Texte slide*/
+.PremierBloc {
+	width: 60%;
+	left: 0;
+}
+
+.TextePresentation {
+	text-align: center;
+	color: #C78805;
+}
+
+.TailleTitre{
+	font-size: 400%;
+}
+
+.TailleSSTitre {
+	font-size: 200%;
+}
+
+.BouttonDecouverte {
+	margin: auto;
+	width: 15%;
+	border: 2px solid #986907;
+	background-color: #C78805;
+}
+
+.TexteDecouverte {
+	text-align: center;
+	font-size: 130%;
+	color: white;
+}
+
+.LienDecouverte{
+	text-decoration: none;
+}
+
+.TexteDecouverte:hover {
+	color: #C78805;
+}
+
+.BouttonDecouverte:hover{
+	background: url('PhotoCSS/BackgroundClair.png');
+	background-size: cover;
+}
+
+
+@keyframes glisse {
+	0% {
+		transform: translateX(0);
+	}
+	4% {
+		transform: translateX(0);
+	}
+	8% {
+		transform: translateX(-450px );
+	}
+	10% {
+		transform: translateX(-450px );
+	}
+	16% {
+		transform: translateX(-900px);
+	}
+	20% {
+		transform: translateX(-900px);
+	}
+	24% {
+		transform: translateX(-1350px);
+	}
+	28% {
+		transform: translateX(-1350px);
+	}
+	32% {
+		transform: translateX(-1800px);
+	}
+	36% {
+		transform: translateX(-1800px);
+	}
+	40% {
+		transform: translateX(-2250px);
+	}
+	44% {
+		transform: translateX(-2250px);
+	}
+	48% {
+		transform: translateX(-2700px);
+	}
+	52% {
+		transform: translateX(-2700px);
+	}
+	56% {
+		transform: translateX(-3150px);
+	}
+	60% {
+		transform: translateX(-3150px);
+	}
+	64% {
+		transform: translateX(-3600px);
+	}
+	68% {
+		transform: translateX(-3600px);
+	}
+	72% {
+		transform: translateX(-4050px);
+	}
+	76% {
+		transform: translateX(-4050px);
+	}
+	80% {
+		transform: translateX(-4500px);
+	}
+	84% {
+		transform: translateX(-4500px);
+	}
+	88% {
+		transform: translateX(-4950);
+	}
+	93% {
+		transform: translateX(-4950);
+	}
+	100% {
+		transform: translateX(0);
+	}
+
+}
+
+
+/* Deuxieme Partie */
+.Largeur{
+	width: 50%;
+}
+
+.BloQ{
+	width: 300px;
+	padding-top: 10%;
+	padding-left: 25%;
+	padding-bottom: 10%;
+	padding-right: 25%;
+	background-color: #fcdab9;
+}
+.Bloc {
+	width: 50%;
+
+}
+.BlocS {
+	display: inline-block;
+}
+
+.PhotoDroite {
+	float: right;
+}
+
+.TextePresentation {
+	text-align: center;
+	color: #C78805;
+}
+
+.TailleTitreBradery {
+	font-size: 200%;
+	color: deeppink;
+}
+
+.TailleTexteBradery {
+	font-size: 150%;
+	color: deeppink;
+}
+
+.BackgroungPF {
+	background: url('Photo/BackgroundClair.png');
+	background-size: cover;
+}
+
+
+
+/* Troisieme Partie */
+.GrisPale {
+	background-color: #EFEBE9;
+}
+
+.TexteFidelitéDroite {
+	color: #575759;
+	text-align: center;
+	font-size: 110%;
+}
+
+.TAILLE33 {
+	width: 33%;
+	display: inline-block;
+}
+
+.TAILLE33Photo {
+	width: 34%;
+	display: inline-block;
+}
+
+.TitreFidelitéDroite {
+	color: #575759;
+	font-size: 200%;
+	margin-left: 3%;
+}
+
+.GrandTitreFidelité {
+	font-size: 250%;
+	text-align: center;
+	color: #575759;
+	margin-top: 6%;
+	margin-bottom: 7%;
+}

@@ -1,0 +1,25 @@
+/*OUDJMAN ET MARCIAUX*/
+
+/*BODY */
+.Chefs {
+  font-size: 250%;
+  text-align: center;
+    -webkit-text-stroke-width: 0.13rem;
+    -webkit-text-stroke-color: black;
+    color: #C78805;
+    margin-top: 12% ;
+}
+
+.Decoration1 img {
+	width: 300px;
+	float: left;
+}
+
+.Decoration2 img {
+	width: 300px;
+	float: right;
+}
+
+.Info {
+	text-align: center;
+}

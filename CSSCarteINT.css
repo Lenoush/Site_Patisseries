@@ -1,0 +1,22 @@
+/*OUDJMAN ET MARCIAUX*/
+
+/* BODY  */
+body { margin-top: 10%; }
+
+#cross-fading img {
+	width: 400px;
+	height: 400px;
+	position:absolute;
+	transition: opacity 1s ease-in-out;
+	margin-top: 4%;
+} 
+
+#cross-fading img#top:hover {		
+	opacity:0;
+} 
+
+.LienArriere {
+	text-decoration: none;
+	color: #C78805 ;
+}
+

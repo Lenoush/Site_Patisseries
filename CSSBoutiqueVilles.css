@@ -1,0 +1,78 @@
+/*OUDJMAN ET MARCIAUX*/
+
+/* CORPS . */
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('Photo/Headerhistoire.jpg');
+	background-size: cover;
+	color: white;
+	font-size: 250%;
+	margin-top: 12%;
+}
+
+
+.CouleurBeige{
+	color: #C78805;
+}
+
+.LienArriere {
+	text-decoration: underline;
+}
+
+.CouleurBlancCaseBoutique{
+	background-color: #FFF8E1;
+}
+
+.GoogleMap {
+	float: right;
+	margin-right: 15%;
+	position: static;
+}
+
+.LienMairie {
+	text-decoration: none;
+	color: black;
+} 
+
+.Carte {
+	height:250px;
+	width: 400px;
+}
+
+.TexteHoraire {
+	margin-left: 15%;
+	position: static;
+}
+
+.EspaceTableau {
+	line-height: 2;
+}
+
+.Collect {
+	text-decoration: none;
+}
+
+.Pick {
+	margin-top: 50px;
+    margin: auto;
+    width: 30%;
+	border: 1px solid #C78805;
+	text-align: center
+}
+
+.TailleH{
+	height: 60px;
+}
+
+.TailleL {
+	width: 33%;
+}
+
+.TailleLargeur{
+	text-align: center;
+	font-size: 80%;
+}
+
+

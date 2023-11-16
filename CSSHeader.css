@@ -1,0 +1,35 @@
+/*OUDJMAN ET MARCIAUX*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* MENU . */
+.Logo {
+	width: 140px;
+}
+
+.HautdePage {
+	top: 2%;
+	position: fixed ;
+	background-color: white;
+	right: 1%;
+	z-index: 100;
+	border-bottom: 5px solid #C78805;
+}
+
+.TAILLE100 {
+	width: 100%;
+}
+
+.RefHautdePage {
+	color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+th > a:hover {
+	text-decoration: underline overline;
+	color: #C78805;
+}
